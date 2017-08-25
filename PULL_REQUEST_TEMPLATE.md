@@ -16,20 +16,11 @@
 * [ ] Have you written new tests for your core changes, as applicable?
 * [ ] Have you successfully ran tests with your changes locally?
 
-...javascript
-var main = function () {
-    var clearMergeButton = function() {
-        document.querySelector('.btn-group-merge').style.display = 'none';
-        document.querySelector('.btn-group-squash').style.display = 'none';
-        document.querySelector('.btn-group-squash').style.display = 'none';
-    };    
-
-    setTimeout(clearMergeButton, 500);
-
-    // Merge button gets reset after you add a comment for some reason, so hide it then too
-    form = document.querySelector('form.js-new-comment-form')
-    form.addEventListener('submit', function() { setTimeout(clearMergeButton, 1000); });
-};
-
-main();
-...
+```javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
+```
