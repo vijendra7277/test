@@ -16,7 +16,7 @@
 * [ ] Have you written new tests for your core changes, as applicable?
 * [ ] Have you successfully ran tests with your changes locally?
 
-...
+...javascript
 var main = function () {
     var clearMergeButton = function() {
         document.querySelector('.btn-group-merge').style.display = 'none';
