@@ -25,4 +25,4 @@
 
 
 exec < /dev/tty
-/home/IMPETUS/vijendrasingh.pawar/Public/testGit/test/.git/hooks/validate_commit.rb $1
+./.git/hooks/validate_commit.rb $1
