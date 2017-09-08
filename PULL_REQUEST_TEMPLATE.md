@@ -4,14 +4,6 @@
 ## Solution
 <- To be filled by Developer:  Provide a brief description of the Solution ->
 
-#### <- Optional -> Open Questions/Comments and Pre-Merge TODOs
-- <- To be filled by Developer:  Provide the list of Open questions - If any ->
-- <- To be filled by Developer:  Provide any comments - If any ->
-- <- To be filled by Developer:  Provide any Pre-merge TODOs - If any ->.
-
-#### <- Optional -> References
-- <- To be filled by Developer:  Any reference documentation links like Wiki etc. ->
-
 #### Developer Checklist (To be filled by Developer): 
 - [ ] I have verified sonar violations on local box to ensure PR builder does not fails, if applicable.
 - [ ] I have verified all flows related to the problem statement on local box.
